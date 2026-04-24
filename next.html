@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+body {
+    font-family: Arial;
+    text-align: center;
+    background: linear-gradient(pink, #ffdde1);
+    padding-top: 80px;
+}
+
+/* card */
+#box {
+    background: white;
+    padding: 25px;
+    width: 320px;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* buttons */
+a {
+    display: block;
+    margin: 10px auto;
+    width: 230px;
+    background: #ff4d6d;
+    color: white;
+    padding: 12px;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    transform: scale(1.05);
+}
+
+/* hidden sections */
+.section {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.6s;
+}
+
+/* show section */
+#apology:target,
+#love:target,
+#surprise:target,
+#c1:target,
+#g1:target {
+    opacity: 1;
+    max-height: 2000px;
+}
+
+/* text */
+p {
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+/* heart */
+h1 {
+    font-size: 50px;
+    margin-top: 20px;
+}
+</style>
+</head>
+
+<body>
+
+<div id="box">
+<h2>Click something babyyy 💖</h2>
+
+<a href="#apology">Apology 😭</a>
+<a href="#love">Love ❤️</a>
+<a href="#surprise">Surprise 🎁</a>
+<a href="#c1">Compliments 💕</a>
+<a href="#g1">Play Game 🎮</a>
+
+<!-- Apology -->
+<div id="apology" class="section">
+<p>
+i know babyyy i messed up many timess babyyyyy....and i made u feel down...i m reallly sorryyyyy for that babyyyyyy....i m your dumbo dummyyy....and babyyyy...i realllyyy care for u babyyy..please for give me😭
+</p>
+</div>
+
+<!-- Love -->
+<div id="love" class="section">
+<p>
+Out of everything in my life...youuuure the one I never want to lose  
+You make my days lighter and my heart calmer  
+Even thinking about you makes everything feel okay  
+I don’t just love you... I love youuuuu veryyyyyyyy veryyyyyy muchhhhhh❤️  
+</p>
+</div>
+
+<!-- Surprise -->
+<div id="surprise" class="section">
+<p>
+This is my little surprise for you 💌  
+Not something big... just something a message from my heart  
+Because what I feel for you is real  
+You are my favorite person... always❤️  
+</p>
+</div>
+
+<!-- Compliments chain -->
+<div id="c1" class="section">
+<p>You are the cutestttttttttttttttttttttttt person everrrrrrr😘</p>
+<a href="#c2">Next</a>
+</div>
+
+<div id="c2" class="section">
+<p>Yourrrrrrrr smile makes everything betterrrrrrrrr❤️</p>
+<a href="#c3">Next</a>
+</div>
+
+<div id="c3" class="section">
+<p>Youuuuu areeeeee my comfort person💖</p>
+<a href="#c4">Next</a>
+</div>
+
+<div id="c4" class="section">
+<p>Youuuuuuuuu make my heart happyyyyyyyyyy😊</p>
+<a href="#c5">Next</a>
+</div>
+
+<div id="c5" class="section">
+<h2>I love you babyyy 💕</h2>
+</div>
+
+<!-- Game -->
+<div id="g1" class="section">
+<p>Choose babyyyyy😊</p>
+<a href="#g2">Button 1</a>
+</div>
+
+<div id="g2" class="section">
+<p>Oops try again😚</p>
+<a href="#g3">Next</a>
+</div>
+
+<div id="g3" class="section">
+<p>Almost there ❤️</p>
+<a href="#g4">Final</a>
+</div>
+
+<div id="g4" class="section">
+<h2>u r winner babyyy❤️ i loveeeeee youuuu❤️</h2>
+</div>
+
+</div>
+
+<h1>❤️</h1>
+
+</body>
+</html>
